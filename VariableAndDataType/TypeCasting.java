@@ -11,7 +11,6 @@ public class TypeCasting{
         double d1 = i1;
         byte b2 = (byte)d1;
         System.out.println("실수 > 정수 형변환 : 실수(double) d1(정수(i1)>실수(d1)) = "+ d1 + "\t 정수(byte) b2 =" +b2 );
-
         double d2 = 0.12345678901234567890;
         float f1 = (float)d2;
         System.out.println("실수 > 실수 형변환 : d2 = "+d2 + "\t f1 = "+f1);
@@ -19,7 +18,7 @@ public class TypeCasting{
         byte b3 = 67;
         char c1 = (char)b3;
         float f2 = c1;
-        System.out.println("정수 > 문자 형변환 : c1 = "+c1 +"\n 문자 > 실수 형변환 : f2= "+f2 );
+        System.out.println("정수(byte) > 문자(char) 형변환 : c1 = "+c1 +"\n 문자 > 실수 형변환 : f2= "+f2 );
 
         boolean b = false;
         // int i2 = (int)b;
