@@ -17,7 +17,7 @@ public class ScannerPractiece {
         System.out.println("입력 : "+ isTrue);
         System.out.println("오늘을 한 문장으로 표현하자면?");
 
-        scanner.nextLine(); //엔터 처리
+        //scanner.nextLine(); //엔터 처리
 
         String sentence = scanner.nextLine();
 
@@ -27,6 +27,8 @@ public class ScannerPractiece {
         int score = scanner.nextInt();
 
         System.out.println("입력한 답 : " + score);
+        
+        scanner.close();
 
 
         
