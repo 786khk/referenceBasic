@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConditionalStatement",
+            "request": "launch",
+            "mainClass": "controlStatement.ConditionalStatement",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrinomialOperation",
+            "request": "launch",
+            "mainClass": "operation.TrinomialOperation",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "DataStructure.Stack",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
