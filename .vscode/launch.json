@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RepeatingSentenceWhile",
+            "request": "launch",
+            "mainClass": "controlStatement.RepeatingSentenceWhile",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatingSentenceFor",
+            "request": "launch",
+            "mainClass": "controlStatement.RepeatingSentenceFor",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchCaseStatement",
+            "request": "launch",
+            "mainClass": "controlStatement.SwitchCaseStatement",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
             "name": "Launch ConditionalStatement",
             "request": "launch",
             "mainClass": "controlStatement.ConditionalStatement",
