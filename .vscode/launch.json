@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayMulti",
+            "request": "launch",
+            "mainClass": "Array.ArrayMulti",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySimple",
+            "request": "launch",
+            "mainClass": "Array.ArraySimple",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
             "name": "Launch RepeatingSentenceWhile",
             "request": "launch",
             "mainClass": "controlStatement.RepeatingSentenceWhile",
