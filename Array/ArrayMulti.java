@@ -39,7 +39,7 @@ public class ArrayMulti {
                 };
 
                 for(int i=0; i<mynam.length;i++){
-                    for(int j=0; j< mynam[i].length;i++){
+                    for(int j=0; j< mynam[i].length;j++){
                         System.out.print(mynam[i][j]);
                     };
                     System.out.println();
