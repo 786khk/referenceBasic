@@ -1,5 +1,5 @@
 package VariableAndDataType;
-public class Integer{
+public class Integer_{
     public static void main(String[] args) {
         byte b1 = -128;
         // byte b2 = 128; 이 부분은 타입이 맞지않아 IDE에서 빨같 밑죽이 그어짐.
