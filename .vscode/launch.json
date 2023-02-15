@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OperatorEx12",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx12",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx11",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx11",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx9",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx9",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx8",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx8",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx6",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx6",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx5",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx5",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx4",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx4",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx3",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx3",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx2",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx2",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx1",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx1",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
             "name": "Launch ToFloat",
             "request": "launch",
             "mainClass": "ToFloat",

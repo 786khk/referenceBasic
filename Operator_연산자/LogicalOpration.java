@@ -1,4 +1,4 @@
-package operation;
+package Operator_연산자;
 
 public class LogicalOpration {
     public static void main(String[] args) {
