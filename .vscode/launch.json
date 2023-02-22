@@ -6,6 +6,50 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Was",
+            "request": "launch",
+            "mainClass": "연습.Was",
+            "projectName": "referenceBasic_572e9aa4",
+            "args": ["/index.html"]
+
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx19",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx19",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx18",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx18",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx17",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx17",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
             "name": "Launch OperatorEx15",
             "request": "launch",
             "mainClass": "Operator_연산자.OperatorEx15",
