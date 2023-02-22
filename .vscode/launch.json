@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OperatorEx15",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx15",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx14",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx14",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorEx13",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx13",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
             "name": "Launch OperatorEx12",
             "request": "launch",
             "mainClass": "Operator_연산자.OperatorEx12",
