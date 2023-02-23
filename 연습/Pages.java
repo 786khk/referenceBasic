@@ -6,7 +6,8 @@ import java.util.Map;
 public class Pages {
     Map<String,String> pageList;
     
-    public Pages() {
+    public Pages() {//어디서든 접근할수있지만 유일하게 설정한다.
+        //이 하나의 
         this.pageList = new HashMap<>();
         this.loadPages();
 
