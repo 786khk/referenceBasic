@@ -26,7 +26,6 @@ public class ExceptionEx15 {
         try {
             f.createNewFile();
         } catch (Exception e) {}
-
     }
 
 }
