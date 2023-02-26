@@ -1,3 +1,5 @@
+import 연습.Pages;
+
 public class MyWebServer {
     public String request(String uri) {
         Pages pages = new Pages();
