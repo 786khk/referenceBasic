@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExceptionEx15",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx15",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx14",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx14",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx13",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx13",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx12",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx12",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx11",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx11",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx10",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx10",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx9",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx9",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx8",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx8",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx7",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx7",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx6",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx6",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx5",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx5",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx4",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx4",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx3",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx3",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx2",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx2",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
@@ -17,8 +115,9 @@
             "request": "launch",
             "mainClass": "연습.Was",
             "projectName": "referenceBasic_572e9aa4",
-            "args": ["/index.html"]
-
+            "args": [
+                "/index.html"
+            ]
         },
         {
             "type": "java",

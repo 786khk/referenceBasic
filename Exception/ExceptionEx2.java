@@ -1,18 +1,15 @@
 package Exception;
 
 public class ExceptionEx2 {
-    //try~catch 구조
+   
     public static void main(String[] args) {
-        try{
-            try {} catch (Exception e1) {}
-        } catch(Exception e){
-            try {} catch (Exception e2) {}
-        }
-
-        try {
-            
-        } catch (Exception e) {
-            // TODO: handle exception
+        int num = 100;
+        int result = 0;
+    
+        for (int i=0; i<10; i++){
+            result = num/(int)( Math.random() * 10);
+            System.out.println(result); //java.lang.ArithmeticException: / by zero
+            // Math.random()0~9까지 램덤으로 나오는데 0으로 나눌 수 없어 에러
         }
     }
 }
