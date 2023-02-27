@@ -3,20 +3,19 @@ package Exception;
 public class TryWithResourceEx {
     public static void main(String[] args) {
         try(CloseableResource cr = new CloseableResource()) {
-           cr.exceptionWork(false); // 예외 발생하지 않음
+           cr.exceptionWork(false); //close()만 예외
         
         } catch (WorkException e) {
-        // TODO: handle exception
             e.printStackTrace();
         } catch(CloseException e ){
             e.printStackTrace();
         }
 
         try(CloseableResource cr = new CloseableResource()) {
-            cr.exceptionWork(true); // 예외 발생
+            cr.exceptionWork(true); //close()와 exceptionWork() 둘 다 예외 발생
+            
          
          } catch (WorkException e) {
-         // TODO: handle exception
              e.printStackTrace();
          } catch(CloseException e ){
              e.printStackTrace();
