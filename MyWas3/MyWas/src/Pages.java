@@ -31,8 +31,8 @@ public class Pages {
     }
 
     public String renderPage(HttpRequest httpRequest) {
+        String page = this.renderPage(httpRequest.pageName);
         try {
-            String page = this.renderPage(httpRequest.pageName);
 
             for(Map.Entry<String, String> entry : httpRequest.parameters.entrySet()){
                 page = page.replaceAll(toKeyFormat(entry.getKey()), entry.getValue());
@@ -40,7 +40,9 @@ public class Pages {
     
             return page;
         } catch(Exception e) {
-            return this.renderPage("404.html");
+            throw new PagesException(httpRequest.pageName);
+            // page = this.renderPage("404.html");
+            // return page;
         }
     }
 

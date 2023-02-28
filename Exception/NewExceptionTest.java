@@ -31,7 +31,7 @@ public class NewExceptionTest {
     static boolean enoughMemory(){ return true;}
     
 }
-class SpaceException extends Exception{
+class SpaceException extends Exception{ //Exception을 상속받는건 checked예외로 강제적인 예외
     SpaceException(String msg){super(msg);}
 }
 class MemoryException extends Exception{

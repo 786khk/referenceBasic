@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChainedExceptionEx",
+            "request": "launch",
+            "mainClass": "Exception.ChainedExceptionEx",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx17",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionEx17",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
             "name": "Launch NewExceptionTest",
             "request": "launch",
             "mainClass": "Exception.NewExceptionTest",

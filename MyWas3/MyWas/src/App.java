@@ -5,12 +5,12 @@ public class App {
         String uri=""; //args[0]
         String res;
         
-        res = myWebServer.request("/index.do?name=abc&age=15");
-        res = myWebServer.request("/home.do?name=abc&age=15");
-        res = myWebServer.request("/about.do?name=abc&age=15");
-        res = myWebServer.request("/login.do?name=abc&age=15");
-        res = myWebServer.request("/index.do?name=abc&age=15");
-        res = myWebServer.request("/index.do?name=abc&age=15");
+        res = myWebServer.request("/index1.do?name=abc&age=15");
+        // res = myWebServer.request("/home.do?name=abc&age=15");
+        // res = myWebServer.request("/about.do?name=abc&age=15");
+        // res = myWebServer.request("/login.do?name=abc&age=15");
+        // res = myWebServer.request("/index.do?name=abc&age=15");
+        // res = myWebServer.request("/index.do?name=abc&age=15");
         //res = myWebServer.request("/index.html");
 
         System.out.println("\n\n########################\n");

@@ -14,7 +14,7 @@ public class ResourceRenameInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpRequest httpRequest) {
         httpRequest.pageName = httpRequest.pageName.replace(".do", ".html");
-        return false;
+        return true;
     } //확장자 do를 html로 변환
     
 }
