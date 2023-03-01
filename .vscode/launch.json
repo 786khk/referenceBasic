@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalendarEx3",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx3",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx2",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx2",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalendarEx1",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx1",
+            "projectName": "referenceBasic_347c71fd"
+        },
+        {
+            "type": "java",
             "name": "Launch ChainedExceptionEx",
             "request": "launch",
             "mainClass": "Exception.ChainedExceptionEx",
