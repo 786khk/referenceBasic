@@ -9,6 +9,13 @@
             "name": "CalendarEx3",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx3",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx3",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx3",
             "projectName": "referenceBasic_347c71fd"
         },
         {
