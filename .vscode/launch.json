@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringEx1",
+            "request": "launch",
+            "mainClass": "utilClass.StringEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx2",
+            "request": "launch",
+            "mainClass": "utilClass.ClassEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx1",
+            "request": "launch",
+            "mainClass": "utilClass.ClassEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx3",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx2",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "CloneEx1",
             "request": "launch",
             "mainClass": "utilClass.CloneEx1",

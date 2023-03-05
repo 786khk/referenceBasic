@@ -1,11 +1,11 @@
 package utilClass;
 
 class Card{
-    String king;
+    String kind;
     int num;
-    public Card(String king,int num){
+    public Card(String kind,int num){
         this.num = num;
-        this.king = king;
+        this.kind = kind;
     }
     public Card(){
         this("SPADE",1);

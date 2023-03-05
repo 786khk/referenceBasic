@@ -1,33 +1,15 @@
 package utilClass;
-// 공변변환타입
-class Point implements Cloneable{
-    int x,y;
-    public Point(int x, int y){
-        this.x = x;
-        this.y = y;
-    }
 
-    public String toString(){
-        return "x: "+ x+ ", y: "+y;
-    }
-    public Object clone(){
-        Object obj = null;
-        
-        try {
-            obj = super.clone(); //반드시 예외처리!
-        } catch (CloneNotSupportedException e) {}
-
-        return obj;
-
-    }
-}
-
+import java.util.Arrays;
 public class CloneEx2 {
     public static void main(String[] args) {
-        Point origin = new Point(2, 3);
-        Point copy = (Point)origin.clone(); //원본 복제
-        System.out.println(origin.toString());
-        System.out.println(copy.toString());
+       
+        int arr[] ={1,2,3,4,5};
+        int clone[] = arr.clone(); //public으로 오버라이딩, 원본과 같은 타입으로 구현하기때문에 형변환이 없어도 됨
+        clone[0] = 6;
+
+        System.out.println(Arrays.toString(arr));//[0, 2, 3, 4, 5]
+        System.out.println(Arrays.toString(clone));//[6, 2, 3, 4, 5]
 
     }
     
