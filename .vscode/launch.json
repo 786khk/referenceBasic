@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OperatorEx1",
+            "request": "launch",
+            "mainClass": "Operator.OperatorEx1",
+            "projectName": "referenceBasic_e0fb0a46"
+        },
+        {
+            "type": "java",
+            "name": "OperatorEx1",
+            "request": "launch",
+            "mainClass": "Operator_연산자.OperatorEx1",
+            "projectName": "referenceBasic_e0fb0a46"
+        },
+        {
+            "type": "java",
             "name": "CalendarEx3",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx3",
