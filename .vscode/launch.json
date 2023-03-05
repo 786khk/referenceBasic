@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringEx3",
+            "request": "launch",
+            "mainClass": "utilClass.StringEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "StringEx2",
             "request": "launch",
             "mainClass": "utilClass.StringEx2",
