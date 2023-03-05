@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CloneEx1",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToStringEx2",
+            "request": "launch",
+            "mainClass": "utilClass.ToStringEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToStringEx1",
+            "request": "launch",
+            "mainClass": "utilClass.ToStringEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToString1",
+            "request": "launch",
+            "mainClass": "utilClass.ToString1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashCodeEx1",
+            "request": "launch",
+            "mainClass": "utilClass.HashCodeEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EqualsEx2",
+            "request": "launch",
+            "mainClass": "utilClass.EqualsEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EqualsEx1",
+            "request": "launch",
+            "mainClass": "utilClass.EqualsEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "CalendarEx1",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx1",
