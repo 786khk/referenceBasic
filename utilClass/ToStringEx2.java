@@ -22,6 +22,7 @@ public class ToStringEx2 {
           
         System.out.println(c1.toString());//kind : SPADE, number: 1
         System.out.println(c2.toString());// kind : HEART, number: 10
+
     }
     
 }
