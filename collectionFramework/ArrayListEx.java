@@ -1,9 +1,11 @@
 package collectionFramework;
 
+import java.io.Serializable;
 import java.io.ObjectInputFilter.Status;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Map;
 
 public class ArrayListEx {
     public static void main(String[] args) {
@@ -17,7 +19,6 @@ public class ArrayListEx {
 
         ArrayList list2 = new ArrayList<>(list.subList(1, 4));
         print(list, list2);
-
         Collections.sort(list);
         Collections.sort(list2);
         print(list,list2);

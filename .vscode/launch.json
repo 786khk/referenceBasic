@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SerializeEx",
+            "request": "launch",
+            "mainClass": "책_이외예제.SerializeEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "ArrayListEx",
             "request": "launch",
             "mainClass": "collectionFramework.ArrayListEx",
