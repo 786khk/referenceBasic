@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArrayListEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "StringEx3",
             "request": "launch",
             "mainClass": "utilClass.StringEx3",

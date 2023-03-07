@@ -21,7 +21,6 @@ public class ClassEx1 {
         Cardd c1 = new Cardd("HEART",10);      
         Cardd c2 = Cardd.class.newInstance(); //class객체를 통해 객체 생성
         Class obj = c1.getClass();
-
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(obj.getName());
