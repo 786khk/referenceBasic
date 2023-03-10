@@ -19,26 +19,39 @@ public class ArrayListEx {
 
         ArrayList list2 = new ArrayList<>(list.subList(1, 4));
         print(list, list2);
+        //list1 : [5, 4, 3, 2, 1, 0]
+        // list2 : [4, 3, 2]
+
         Collections.sort(list);
         Collections.sort(list2);
         print(list,list2);
-        System.out.println("list.containsAll(list2) : "+ list.containsAll(list2));
+        //list1 : [0, 1, 2, 3, 4, 5]    
+        // list2 : [2, 3, 4]
+        System.out.println("list.containsAll(list2) : "+ list.containsAll(list2)); //TRUE
 
         list2.add("X");
         list2.add("X");
         list2.add(3, "Y");
         
         print(list,list2);
+        //list1 : [0, 1, 2, 3, 4, 5]    
+        //list2 : [2, 3, 4, Y, X, X]    
 
-        System.out.println("list.retainAll(list2): "+list.retainAll(list2));
+        System.out.println("list.retainAll(list2): "+list.retainAll(list2)); //true
         print(list,list2);
+        // list1 : [2, 3, 4]
+        // list2 : [2, 3, 4, Y, X, X]
 
-        for(int i=0;i>list2.size();i++){
+        for(int i=list2.size()-1;i>=0;i--){
             if(list.contains(list2.get(i))){
                 list2.remove(i);
             }
         }
         print(list,list2);
+        /**
+         * list1 : [2, 3, 4]
+            list2 : [2, 3, 4, Y, X, X]
+         */
 
     }
 

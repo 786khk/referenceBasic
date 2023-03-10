@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bingo",
+            "request": "launch",
+            "mainClass": "collectionFramework.Bingo",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetLotto",
+            "request": "launch",
+            "mainClass": "collectionFramework.HashSetLotto",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.HashSetEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ComporatorEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ComporatorEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ArraysEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArraysEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ListIteratorEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ListIteratorEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.PriorityQueueEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "VectorEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.VectorEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEx2",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArrayListEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "SerializeEx",
             "request": "launch",
             "mainClass": "책_이외예제.SerializeEx",
