@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Man",
+            "request": "launch",
+            "mainClass": "Generics.Man",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx4",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx4",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx3",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx2",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "FruitBoxEx1",
             "request": "launch",
             "mainClass": "Generics.FruitBoxEx1",

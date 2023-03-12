@@ -8,7 +8,7 @@ class Grape { public String toString() {return "this is Grape";}}
 class Toy { public String toString() {return "this is Toy";}}
 
 public class FruitBoxEx1 {
-    public static void main(String[] args) {
+    public void main() {
         Box<Fruit> fruitBox = new Box<Fruit>();
         Box<Apple> appleBox = new Box<Apple>();
         Box<Toy> toyBox = new Box<Toy>();
@@ -19,10 +19,12 @@ public class FruitBoxEx1 {
 
         appleBox.add(new Apple());
         appleBox.add(new Apple());
-        // appleBox.add(new Toy());//The method add(Apple) in the type Box<Apple> is not applicable for the arguments (Toy)
+        // appleBox.add(new Toy());
+        //The method add(Apple) in the type Box<Apple> is not applicable for the arguments (Toy)
 
         toyBox.add(new Toy());
-        // toyBox.add(new Apple());// The method add(Toy) in the type Box<Toy> is not applicable for the arguments (Apple);
+        // toyBox.add(new Apple());
+        // The method add(Toy) in the type Box<Toy> is not applicable for the arguments (Apple);
         System.out.println(fruitBox);
         System.out.println(appleBox);
         System.out.println(toyBox);
