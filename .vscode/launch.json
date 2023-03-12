@@ -6,6 +6,244 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Man",
+            "request": "launch",
+            "mainClass": "Generics.Man",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx4",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx4",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx3",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx2",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "FruitBoxEx1",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "Bingo",
+            "request": "launch",
+            "mainClass": "collectionFramework.Bingo",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetLotto",
+            "request": "launch",
+            "mainClass": "collectionFramework.HashSetLotto",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.HashSetEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ComporatorEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ComporatorEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ArraysEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArraysEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ListIteratorEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ListIteratorEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.PriorityQueueEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "VectorEx1",
+            "request": "launch",
+            "mainClass": "collectionFramework.VectorEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEx2",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArrayListEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "SerializeEx",
+            "request": "launch",
+            "mainClass": "책_이외예제.SerializeEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEx",
+            "request": "launch",
+            "mainClass": "collectionFramework.ArrayListEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "StringEx3",
+            "request": "launch",
+            "mainClass": "utilClass.StringEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "StringEx2",
+            "request": "launch",
+            "mainClass": "utilClass.StringEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "StringEx1",
+            "request": "launch",
+            "mainClass": "utilClass.StringEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx2",
+            "request": "launch",
+            "mainClass": "utilClass.ClassEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx1",
+            "request": "launch",
+            "mainClass": "utilClass.ClassEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx3",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx2",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx1",
+            "request": "launch",
+            "mainClass": "utilClass.CloneEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToStringEx2",
+            "request": "launch",
+            "mainClass": "utilClass.ToStringEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToStringEx1",
+            "request": "launch",
+            "mainClass": "utilClass.ToStringEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "ToString1",
+            "request": "launch",
+            "mainClass": "utilClass.ToString1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "HashCodeEx1",
+            "request": "launch",
+            "mainClass": "utilClass.HashCodeEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EqualsEx2",
+            "request": "launch",
+            "mainClass": "utilClass.EqualsEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EqualsEx1",
+            "request": "launch",
+            "mainClass": "utilClass.EqualsEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx1",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx1",
+            "projectName": "referenceBasic_e0fb0a46"
+        },
+        {
+            "type": "java",
+            "name": "OperationDescription",
+            "request": "launch",
+            "mainClass": "Operator.OperationDescription",
+            "projectName": "referenceBasic_e0fb0a46"
+        },
+        {
+            "type": "java",
+            "name": "OperatorEx1",
+            "request": "launch",
+            "mainClass": "Operator.OperatorEx1",
+            "projectName": "referenceBasic_e0fb0a46"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx3",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx3",
+            "projectName": "referenceBasic_572e9aa4"
+        },
+        {
+            "type": "java",
             "name": "CalendarEx3",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx3",
@@ -188,118 +426,6 @@
             "request": "launch",
             "mainClass": "${file}",
             "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx19",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx19",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx18",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx18",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx17",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx17",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx15",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx15",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx14",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx14",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx13",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx13",
-            "projectName": "referenceBasic_572e9aa4"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx12",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx12",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx11",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx11",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx9",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx9",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx8",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx8",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx6",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx6",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx5",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx5",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx4",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx4",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx3",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx3",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx2",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx2",
-            "projectName": "referenceBasic_347c71fd"
-        },
-        {
-            "type": "java",
-            "name": "Launch OperatorEx1",
-            "request": "launch",
-            "mainClass": "Operator_연산자.OperatorEx1",
-            "projectName": "referenceBasic_347c71fd"
         },
         {
             "type": "java",

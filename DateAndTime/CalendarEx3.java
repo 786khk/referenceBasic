@@ -1,10 +1,13 @@
 package DateAndTime;
 
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.concurrent.TimeUnit;
 
 public class CalendarEx3 {
     public static void main(String[] args) {
+        Calendar test = new GregorianCalendar();
+        // Calendar test1 = new BuddhistCalendar();// 태국에서 쓰는 켈린더형식, 이 부분은 깊게 알 필요는 없다. 
         final int[] TIME_UNIT = {3600,60,1};
         final String[] TIME_UNIT_NAME = { "시","분", "초" };
         Calendar time1 = Calendar.getInstance();
