@@ -11,8 +11,6 @@ import java.util.Set;
 public class HashSetLotto {
     public static void main(String[] args) {
         Set set = new HashSet();
-        Comparator
-        Comparable
         for(int i=0;set.size()<6;i++){
             int num = (int)(Math.random()*45)+1; // 실행할때마다 다름
             // set.add(num);

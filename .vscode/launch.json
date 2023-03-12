@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FruitBoxEx1",
+            "request": "launch",
+            "mainClass": "Generics.FruitBoxEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "Bingo",
             "request": "launch",
             "mainClass": "collectionFramework.Bingo",
