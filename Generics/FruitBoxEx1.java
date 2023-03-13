@@ -13,6 +13,7 @@ public class FruitBoxEx1 {
         Box<Apple> appleBox = new Box<Apple>();
         Box<Toy> toyBox = new Box<Toy>();
         // Box<Grape> grapeBox = new Box<Apple>(); // Type mismatch: cannot convert from Box<Apple> to Box<Grape>
+        // Box<Fruit> grapeBox = new Box<Grape>(); // Type mismatch: cannot convert from Box<Apple> to Box<Grape>
 
         fruitBox.add(new Fruit());
         fruitBox.add(new Apple());

@@ -1,6 +1,7 @@
 package Generics;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 class Fruit { public String toString() {return "this is Fruit";}}
 class Apple extends Fruit { public String toString() {return "this is Apple";}}
@@ -35,8 +36,7 @@ public class FruitBoxEx3 {
         fruitBox.add(new Grape());
         appleBox.add(new Apple());
         appleBox.add(new Apple());
-
-
+        
         System.out.println("fruitBox - "+fruitBox);
         System.out.println("appleBox - "+appleBox);
 

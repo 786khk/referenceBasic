@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReflectionEx",
+            "request": "launch",
+            "mainClass": "Generics.ReflectionEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EnumEx2",
+            "request": "launch",
+            "mainClass": "Enums.EnumEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Enums.Main",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "Man",
             "request": "launch",
             "mainClass": "Generics.Man",
