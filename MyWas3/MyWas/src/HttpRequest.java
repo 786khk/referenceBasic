@@ -1,3 +1,5 @@
+package MyWas3.MyWas.src;
+
 import java.util.HashMap;
 import java.util.Map;
 

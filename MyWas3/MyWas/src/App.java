@@ -1,3 +1,4 @@
+package MyWas3.MyWas.src;
 public class App {
     public static void main(String[] args) throws Exception {
         MyWebServer myWebServer = new MyWebServer();

@@ -1,3 +1,4 @@
+package MyWas3.MyWas.src;
 public class Config {
     private static Config config;
 

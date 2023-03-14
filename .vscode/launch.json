@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Thread.Main",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "MyWas3.MyWas.src.App",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "GenerisTest",
+            "request": "launch",
+            "mainClass": "Generics.GenerisTest",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "EnumEx3",
+            "request": "launch",
+            "mainClass": "Enums.EnumEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "ReflectionEx",
             "request": "launch",
             "mainClass": "Generics.ReflectionEx",

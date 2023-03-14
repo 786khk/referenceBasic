@@ -45,10 +45,11 @@ public class EnumEx2 {
         System.out.println("Direction2.EAST.hashCode() : "+Direction2.EAST.hashCode());
         System.out.printf("d1 = %s, %d%n", d1.name(), d1.getValue());
         System.out.printf("d2 = %s, %d%n", d2.name(), d2.getValue());
-        System.out.println(Direction2.SOUTH2);
+        System.out.println(Direction2.SOUTH2.getClass());
+        System.out.println(Direction2.SOUTH.getValue() == Direction2.SOUTH2.getValue());
         System.out.printf("%d == %d ? %b%n ",Direction2.SOUTH2.getValue(),Direction2.SOUTH.getValue(),Direction2.SOUTH2.getValue()==Direction2.SOUTH.getValue() );
         System.out.println("Direction2.SOUTH2.hashCode()"+Direction2.SOUTH2.hashCode());
-        System.out.println("Direction2.SOUTH2.hashCode() : "+ Direction2.SOUTH.hashCode());
+        System.out.println("Direction2.SOUTH.hashCode() : "+ Direction2.SOUTH.hashCode());
         System.out.println(Direction2.EAST.rotate(1));
         System.out.println(Direction2.EAST.rotate(2));
 

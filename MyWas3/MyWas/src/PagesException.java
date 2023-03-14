@@ -1,3 +1,5 @@
+package MyWas3.MyWas.src;
+
 public class PagesException  extends RuntimeException{
     String pageName = "";
 
