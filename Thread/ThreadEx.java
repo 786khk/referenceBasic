@@ -9,12 +9,31 @@ public class ThreadEx {
         Thread t3 = new Thread(new ThreadEx1_2());
         t1.start();
         t2.start();
+        // t2.start();
+        /*
+        Thread-0
+        Exception in thread "main" Thread-0
+        Thread-0
+        java.lang.IllegalThreadStateException
+        Thread-0
+        Thread-1
+        Thread-1
+        Thread-0
+        Thread-1
+        Thread-1
+        Thread-1
+                at java.base/java.lang.Thread.start(Thread.java:793)
+                at Thread.ThreadEx.main(ThreadEx.java:14)
+                at Thread.Main.main(Main.java:6) */
+
+                t2 = new Thread(r);
+                t2.start();
     }
 }
 class ThreadEx1_1 extends Thread{
     public void run(){
         for(int i=0; i<5; i++){
-            System.out.println(getName());
+            System.out.println(getName()); // 부모인 Thread의 getName() 호출
         }
     }
 }
