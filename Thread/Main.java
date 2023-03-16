@@ -20,8 +20,24 @@ public class Main {
         // ThreadEx8 t8 = new ThreadEx8();
         // t8.main();
 
-        ThreadEx9 t9 = new ThreadEx9();
-        t9.main();
+        // ThreadEx9 t9 = new ThreadEx9();
+        // t9.main();
+
+        // ThreadEx10 t10 = new ThreadEx10();
+        // t10.main();
+
+        // ThreadEx11 t11 = new ThreadEx11();
+        // t11.main();
+        // ThreadEx12 t12 = new ThreadEx12();
+        // t12.main();
+        // ThreadEx13 t13 = new ThreadEx13();
+        // t13.main();
+        // ThreadEx14 t14 = new ThreadEx14();
+        // t14.main();
+        // ThreadEx15 t15 =new ThreadEx15();
+        // t15.main();
+        ThreadEx16 t16 = new ThreadEx16();
+        t16.main();
 
     }
 }

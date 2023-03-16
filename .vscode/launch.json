@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnnotationEx5",
+            "request": "launch",
+            "mainClass": "Annoation.AnnotationEx5",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx4",
+            "request": "launch",
+            "mainClass": "Annoation.AnnotationEx4",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx3",
+            "request": "launch",
+            "mainClass": "Annoation.AnnotationEx3",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx2",
+            "request": "launch",
+            "mainClass": "Annoation.AnnotationEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx1",
+            "request": "launch",
+            "mainClass": "Annoation.AnnotationEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "DumpMethods",
+            "request": "launch",
+            "mainClass": "Reflection.DumpMethods",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Thread.Main",

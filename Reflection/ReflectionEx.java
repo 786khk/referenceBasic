@@ -1,4 +1,4 @@
-package Generics;
+package Reflection;
 
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.GenericDeclaration;

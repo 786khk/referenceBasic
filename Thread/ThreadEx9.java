@@ -7,7 +7,7 @@ public class ThreadEx9 {
         ThreadGroup group2 = new ThreadGroup("group2") ;
 
         ThreadGroup subGroup1 = new ThreadGroup(group1, "subGroup1");
-        group1.setMaxPriority(3);
+        group1.setMaxPriority(3); // 스레드가 그룹체 추가 되기 전에 호출, 3으로 설정했으니 여기 속한 스레드가 영향을 받음
 
 
         Runnable r = new Runnable() {
@@ -19,7 +19,7 @@ public class ThreadEx9 {
                 }
             }
         };
-
+        // FIXME: 스레드 그룹 추가.
         new Thread(group1,r,"t1").start();;
         new Thread(subGroup1,r,"t2").start();
         new Thread(group2,r,"t3").start();
@@ -38,7 +38,7 @@ public class ThreadEx9 {
          */
 
          
-        main.list();
+        main.list();// 메인 스레드 그룹 정보 추출
 
     
     }
