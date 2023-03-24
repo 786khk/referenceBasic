@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalendarEx2",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx2",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx1",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx1",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "AnnotationEx5",
             "request": "launch",
             "mainClass": "Annoation.AnnotationEx5",

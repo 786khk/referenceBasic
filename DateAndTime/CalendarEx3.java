@@ -21,7 +21,7 @@ public class CalendarEx3 {
         time2.set(Calendar.MINUTE, 30);
         time2.set(Calendar.SECOND, 10);
 
-        System.out.println("time1: " + time1.get(Calendar.HOUR_OF_DAY)+"시" + time1.get(Calendar.MINUTE)+"분"+time1.get(Calendar.SECOND)+"초");
+        System.out.println("time1: " + time1.get(Calendar.HOUR_OF_DAY)+"시" + time1.get(Calendar.MINUTE)+"분" + time1.get(Calendar.SECOND)+"초");
         System.out.println("time2: " + time2.get(Calendar.HOUR_OF_DAY) + "시" + time2.get(Calendar.MINUTE) + "분"
                 + time2.get(Calendar.SECOND) + "초");
 
