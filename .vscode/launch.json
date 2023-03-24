@@ -6,6 +6,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalendarEx5",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx5",
+            "projectName": "referenceBasic_e4106f97",
+            "args": ["2023","03"]
+        },
+        {
+            "type": "java",
+            "name": "TimeZoneEx",
+            "request": "launch",
+            "mainClass": "DateAndTime.TimeZoneEx",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
+            "name": "CalendarEx4",
+            "request": "launch",
+            "mainClass": "DateAndTime.CalendarEx4",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "CalendarEx3",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx3",

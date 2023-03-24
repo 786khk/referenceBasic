@@ -88,6 +88,65 @@ cal.setTime(d);
 
 현재 시스탬 시간은 UTC로 영웅시간을 기준으로 시간차를 타임존으로 정의한다. 
 
-
+실험을 위해 일부러 시간차가 큰 지역으로 설정했다.
  ![image](https://user-images.githubusercontent.com/78067072/227422363-0f28d3fd-2c69-40b4-85f9-63eb9c18b812.png)
 
+
+ ```java
+        TimeZone t = Calendar.getInstance().getTimeZone();
+        System.out.println("timeZone : "+ t);
+        //timeZone : sun.util.calendar.ZoneInfo[id="Pacific/Honolulu",offset=-36000000,dstSavings=0,useDaylight=false,transitions=7,lastRule=null]
+        System.out.println("국가 : "+t.getDisplayName()); // 하와이 알류샨 표준시
+        System.out.println("UTC 시간차 : "+t.getOffset(Calendar.getInstance().getTimeInMillis())/(60*60));//UTC 시간차 : -10000  
+ ```
+
+ 서버 리전의 시간을 고려해 서비스 되는 지역의 시간을 계산해야한다. 
+ 같이 동시에 작업을 해도 한곳은 새벽, 한곳은 저녁시간으로 작업이 된다고 생각한다.
+
+
+ 
+
+
+```java
+
+
+
+        Calendar date = Calendar.getInstance();
+        // date.set(2023,03,24);
+        System.out.println("현재 : " + toString(date));
+        System.out.println("=====1일 후 =====");
+        date.add(Calendar.DATE,1);
+        System.out.println(toString(date));
+       
+        System.out.println("=====6개월 전====");
+        date.add(Calendar.MONTH, -6);
+        System.out.println(toString(date));
+
+        System.out.println("===== 31일 후(roll)=====");
+        date.roll(Calendar.DATE, 31);
+        System.out.println(toString(date));
+
+        System.out.println("===== 31일 후(add)=====");
+        date.add(Calendar.DATE, 31);
+        System.out.println(toString(date));
+
+
+        //결과
+
+        /**
+            2023년3월23일
+            =====1일 후 =====
+            2023년3월24일
+            =====6개월 전====
+            2022년9월24일
+            ===== 31일 후(roll)=====
+            2022년9월25일
+            ===== 31일 후(add)=====
+            2022년10월26일
+         */
+
+
+````
+#### add()와 roll()의 차이
+-add는 지정한 값만큼 증가 또는 감소할 수 있어 특정날짜릴 기준으로 일정기간을 알 수 있다.
+- roll 또한 add와 같이 기준되는날짜에서 일정기간을 알 수 있지만, 지정한 필드의 값을 증가 또는 감소할 수 있다.하지만 파라미터로 지정된 항목(DATE, MONTH, YEAR 등) 에만 영향을 준다.
