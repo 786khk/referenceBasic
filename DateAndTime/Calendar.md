@@ -86,4 +86,8 @@ cal.setTime(d);
 
 ![image](https://user-images.githubusercontent.com/78067072/227421741-6b9afb09-65b2-475d-9e01-8527eb2eed23.png)
 
- 
+현재 시스탬 시간은 UTC로 영웅시간을 기준으로 시간차를 타임존으로 정의한다. 
+
+
+ ![image](https://user-images.githubusercontent.com/78067072/227422363-0f28d3fd-2c69-40b4-85f9-63eb9c18b812.png)
+
