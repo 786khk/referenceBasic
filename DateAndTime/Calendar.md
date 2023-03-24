@@ -84,4 +84,6 @@ cal.setTime(d);
 이 때 만약 서비스 지역이 한국이 아닌 해외라면 해외에 잇는 서버의 시간을 구해온다.
 실제로 
 
+![image](https://user-images.githubusercontent.com/78067072/227421741-6b9afb09-65b2-475d-9e01-8527eb2eed23.png)
+
  
