@@ -6,11 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "format.Main",
+            "projectName": "referenceBasic_e4106f97"
+        },
+        {
+            "type": "java",
             "name": "CalendarEx5",
             "request": "launch",
             "mainClass": "DateAndTime.CalendarEx5",
             "projectName": "referenceBasic_e4106f97",
-            "args": ["2023","03"]
+            "args": [
+                "2023",
+                "03"
+            ]
         },
         {
             "type": "java",
