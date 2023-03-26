@@ -120,9 +120,7 @@ public class MyVector implements List{
     // default Spliterator spliterator(){}
     // default void replaceAll(UnaryOperator operator){}
 
-    public static void main(String[] args) {
-        
-    }
+ 
 
  
 }
