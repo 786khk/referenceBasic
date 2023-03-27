@@ -41,3 +41,12 @@ ZoneDateTime zoneDateTime = ZoneDateTime.of(dateTime,ZoneId.of("Asia/Seoul"));
 
 - 위 코드에 명시된 객체 등 알짜와 시간을 표현하기 위한 클래스들은 모두 Temporal, TemporalAccessor, TemporalAdjuster 인터페이스를 구현했다.
 -Period와 Duration은 TemporalAmount인터페이스를 구현한다.
+
+![image](https://user-images.githubusercontent.com/78067072/227815154-214a4d3b-1961-4b0f-8e91-00db1132cb97.png)
+
+![image](https://user-images.githubusercontent.com/78067072/227815176-55ef6f4a-5bf8-49d0-9f52-4de75f8ab867.png)
+
+![image](https://user-images.githubusercontent.com/78067072/227815188-04e7e000-ccbd-4e15-b1da-0cc6f6276dc4.png)
+
+![image](https://user-images.githubusercontent.com/78067072/227815211-b18ad212-23c5-48b0-92e5-6f6531b22eb3.png)
+
