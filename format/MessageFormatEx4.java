@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class MessageFormatEx4 {
     public static void main() throws FileNotFoundException, ParseException {
         String table = "tb_user";
-        String fileName = "./data.txt";
+        String fileName = "data.txt";
         String message = "INSERT INTO "+table+" VALUES ({0},{1},{2},{3}) ;";
         Scanner s = new Scanner(new File(fileName));
         String pattern = "{0},{1},{2},{3} ;";
