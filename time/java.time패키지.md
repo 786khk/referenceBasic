@@ -28,7 +28,7 @@ LocalDateTime + 시간대 = ZoneDateTime
 Period(두 날짜간의 차이를 표현)
 Duration(시간아치를 표현)
 
-### 객체 생성 now(), of()
+## 객체 생성 now(), of()
 
 ```java
 
@@ -38,9 +38,14 @@ LocalDateTime dateTime = LocalDateTime.now();
 ZoneDateTime zoneDateTime = ZoneDateTime.of(dateTime,ZoneId.of("Asia/Seoul"));
 
 ```
+## Temporal과 TemporalAmount
 
 - 위 코드에 명시된 객체 등 알짜와 시간을 표현하기 위한 클래스들은 모두 Temporal, TemporalAccessor, TemporalAdjuster 인터페이스를 구현했다.
 -Period와 Duration은 TemporalAmount인터페이스를 구현한다.
+
+Temporal, TemporalAdjuster, TemporalAccessor를 구현한 클래스
+
+- LocalDate, LocalTime, LocalDateTime, ZoneDateTime, Instant 등
 
 ![image](https://user-images.githubusercontent.com/78067072/227815154-214a4d3b-1961-4b0f-8e91-00db1132cb97.png)
 
@@ -50,3 +55,5 @@ ZoneDateTime zoneDateTime = ZoneDateTime.of(dateTime,ZoneId.of("Asia/Seoul"));
 
 ![image](https://user-images.githubusercontent.com/78067072/227815211-b18ad212-23c5-48b0-92e5-6f6531b22eb3.png)
 
+TemporalAmount를 구현한 클래스
+- Period, Duration
