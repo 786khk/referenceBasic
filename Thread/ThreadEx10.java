@@ -16,8 +16,8 @@ public class ThreadEx10 implements Runnable{
             if(i==5){
                 autoSave = true;
             }
-            System.out.println("종료");
         }
+        System.out.println("종료");
     
     }
 
@@ -37,4 +37,23 @@ public class ThreadEx10 implements Runnable{
     public void autoSave(){
         System.out.println("작업파일 자동저장");
     }
+
+
+
+    /*
+     
+    1
+    2
+    3
+    4
+    5
+    작업파일 자동저장
+    6
+    7
+    8
+    작업파일 자동저장
+    9
+    10
+    종료
+     */
 }

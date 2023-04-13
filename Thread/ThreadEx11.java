@@ -6,7 +6,7 @@ import java.util.Map;
 public class ThreadEx11 {
     public static void main(){
         ThreadEx11_1 t1 = new ThreadEx11_1("thread1");
-        ThreadEx11_2 t2 = new ThreadEx11_2("thread1");
+        ThreadEx11_2 t2 = new ThreadEx11_2("thread2");
 
         t1.start();
         t2.start();
