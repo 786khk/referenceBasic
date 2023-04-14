@@ -17,7 +17,7 @@ public class ThreadEx15 {
             Thread.sleep(2000);
             t2.suspend();
             Thread.sleep(3000);
-            t1.stop();
+            t1.resume();
             Thread.sleep(3000);
             t1.stop();
             t2.stop();

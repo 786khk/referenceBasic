@@ -10,7 +10,7 @@ public class ThreadEx14 {
         String input = JOptionPane.showInputDialog("입력 ㄱㄱ");
         System.out.println("입력하신 값은 " + input + "입니다.");
         System.out.println("isInterrupted : " + t1.isInterrupted()); 
-        t1.interrupt();//interrupt()호출시 isInterrupt()가 true
+        t1.interrupt();//interrupt()호출시 InterruptedException발생, isInterrupt()가 true
         System.out.println("isInterrupted : " + t1.isInterrupted()); 
     
         /**
@@ -54,9 +54,10 @@ class ThreadEx14_1 extends Thread{
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 //입력값이 있어도 카운트 종료가안돼 추가함
-                interrupt(); // 추가 후 카운트 중간에 중단
+                // interrupt(); // 추가 후 카운트 중간에 중단
             }
         }
         System.out.println("카운트 종료");
+
     }
 }
