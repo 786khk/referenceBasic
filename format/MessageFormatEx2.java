@@ -1,6 +1,7 @@
 package format;
 
 import java.text.MessageFormat;
+import java.util.Arrays;
 
 public class MessageFormatEx2 {
     public static void main() {
@@ -13,6 +14,7 @@ public class MessageFormatEx2 {
             String result = MessageFormat.format(message, argument[i]);
             System.out.println(result);
         }
+        Arrays.sort(argument, 0, 0);
            /*
          결과 : 
         INSERT INTO tb_user+ VALUES ('김현경','010',23,'09-15') 

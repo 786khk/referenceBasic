@@ -37,9 +37,59 @@ public class Main {
 
         // MessageFormatEx3 messageEx3 = new  MessageFormatEx3();
         // messageEx3.main();
-        MessageFormatEx4 messageEx4 = new  MessageFormatEx4();
-        messageEx4.main();
+        // MessageFormatEx4 messageEx4 = new  MessageFormatEx4();
+        // messageEx4.main();
+
+        Solution test = new Solution();
+        int[] t = {4, 2, 6, 1, 7, 6};
+        int count = 2;
+        test.solution(t, count);
     
 
+    }
+
+
+}
+
+// class Solution {
+//     public int[] solution(int n, int k) {
+//         int[] answer = createArrayByMultipleValue(n,k);
+//         return answer;
+//     }
+    
+//     public int[] createArrayByMultipleValue(int n, int k){
+        
+//         int length = (int)(n/k);
+//         int[] result = new int[length];
+//         int index = 0;
+//         for(int i=0; i<n; i++){
+//             if(i>0 && (k*i)<=n){
+//                 result[index]=(k*i);
+//                 if(index == result.length) break;
+//             }
+//             index++;
+//         }
+        
+//         return result;
+//     }
+// }
+
+
+class Solution {
+    public int[] solution(int[] num_list, int n) {
+        int[] answer = getArrayByIndex(n,num_list);
+        return answer;
+    }
+    
+    public int[] getArrayByIndex(int n,int ...num_list ){
+        int[] result = new int[num_list.length/n];
+        int index = 0;
+        for(int i=0; i< result.length;i++){
+            result[index] =num_list[n*i];
+            index++;
+
+        }
+
+        return result;
     }
 }
