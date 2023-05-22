@@ -1,6 +1,6 @@
 package VariableAndDataType;
 public class IntTypeRange{
-    public static void main(String[] args) {
+    public static void main() {
         // byte (-128) ~ 127
         byte b1 = -127;
         byte b2 = -129;

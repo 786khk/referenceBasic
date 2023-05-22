@@ -26,7 +26,7 @@ public class ScannerPractiece {
 
         int score = scanner.nextInt();
 
-        System.out.println("입력한 답 : " + score+"고생혀따");
+        System.out.println("입력한 답 : " + score+", 고생혀따");
         
         scanner.close();
 
