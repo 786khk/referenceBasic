@@ -8,9 +8,9 @@ public class OperatorEx28{
         System.out.printf("x= %#X \t\t %s%n",x, toBinaryString(x) );
         System.out.printf("y= %#X \t\t %s%n",y, toBinaryString(y) );
         System.out.printf("%#X | %#X = %#X \t%s%n",x,y,x|y, toBinaryString(x|y) );
-        System.out.printf("%#X | %#X = %#X \t%s%n",x,y,x&y, toBinaryString(x&y) );
-        System.out.printf("%#X | %#X = %#X \t%s%n",x,y,x^y, toBinaryString(x^y) );
-        System.out.printf("%#X | %#X = %#X \t%s%n",x,y,x^y, toBinaryString(x^y^y) );
+        System.out.printf("%#X & %#X = %#X \t%s%n",x,y,x&y, toBinaryString(x&y) );
+        System.out.printf("%#X ^ %#X = %#X \t%s%n",x,y,x^y, toBinaryString(x^y) );
+        System.out.printf("%#X ^ %#X ^ %#X = %#X \t%s%n",x,y,y,x^y, toBinaryString(x^y^y) );
     }
 
     static String toBinaryString(int z){
