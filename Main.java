@@ -3,6 +3,7 @@ import Operator.OperatorEx22;
 import Operator.OperatorEx23;
 import Operator.OperatorEx28;
 import objectOriented.TvTest;
+import objectOriented.TvTest2;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Main {
         // OperatorEx28 o28 = new OperatorEx28();
 
         // o28.main();
-        TvTest t = new TvTest();
+        TvTest2 t = new TvTest2();
         t.main();
 
     }
