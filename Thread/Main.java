@@ -32,8 +32,8 @@ public class Main {
         // t12.main();
         // ThreadEx13 t13 = new ThreadEx13();
         // t13.main();
-        ThreadEx14 t14 = new ThreadEx14();
-        t14.main();
+        // ThreadEx14 t14 = new ThreadEx14();
+        // t14.main();
         // ThreadEx15 t15 =new ThreadEx15();
         // t15.main();
         // ThreadEx16 t16 = new ThreadEx16();
@@ -42,6 +42,8 @@ public class Main {
         // t17.main();
         // ThreadEx18 t18 = new ThreadEx18();
         // t18.main();
+        ThreadEx19 t19 = new ThreadEx19();
+        t19.main();
 
     }
 }
