@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayListEx2 {
     public static void main(String[] args) {
-        final int limit = 10;
+        final int limit = 10; // 자르고자 하는 글자 수
         String source = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%()";
         int length = source.length();
 
