@@ -36,6 +36,7 @@ public class ToFloat {
         // String result = new StringBuffer(resultFomer).reverse().toString();
         // System.out.println("result : "+ result);
     }
+    
     static String getIntegerBinary(String param){
         if (param.contains("-")) param = param.substring(param.lastIndexOf("-") + 1);
         float paramFloat = Float.parseFloat(param);
