@@ -3,6 +3,7 @@ import Operator.OperatorEx22;
 import Operator.OperatorEx23;
 import Operator.OperatorEx28;
 import objectOriented.Tv3;
+import objectOriented.TvTest4;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,7 +32,10 @@ public class Main {
         System.out.printf("t1의 channel의 값을 %d 로 변경했습니다.%n",t1.channel);
         System.out.printf("t1의 channel의 값은 %s 입니다.%n",t1.channel);
         System.out.printf("t2의 channel의 값은 %s 입니다.%n",t2.channel); */
-        Tv3 t3  = new Tv3();
+        // Tv3 t3  = new Tv3();
+        TvTest4 t = new TvTest4();
+        t.main();
+
     
 
     }

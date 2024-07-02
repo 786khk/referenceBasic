@@ -9,7 +9,7 @@ public class NewExceptionTest {
             System.out.println("에러"+se.getMessage());
             se.printStackTrace();
             System.out.println("설치할 공간 확보요망");
-            // TODO: handle exception
+            // NOTE: handle exception
         } catch (MemoryException me) {
             System.out.println("에러"+me.getMessage());
             me.printStackTrace();
