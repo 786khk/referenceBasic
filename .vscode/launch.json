@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SuperTestEx2",
+            "request": "launch",
+            "mainClass": "objectOriented.SuperTestEx2",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "DeckTestEx",
+            "request": "launch",
+            "mainClass": "objectOriented.DeckTestEx",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "DrawShapeEx",
+            "request": "launch",
+            "mainClass": "objectOriented.DrawShapeEx",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "CaptionTVTestEx1",
+            "request": "launch",
+            "mainClass": "objectOriented.CaptionTVTestEx1",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "MathTest2",
+            "request": "launch",
+            "mainClass": "objectOriented.MathTest2",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "FactorialEx2",
+            "request": "launch",
+            "mainClass": "objectOriented.FactorialEx2",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceParamEx2",
+            "request": "launch",
+            "mainClass": "objectOriented.ReferenceParamEx2",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceParamEx",
+            "request": "launch",
+            "mainClass": "objectOriented.ReferenceParamEx",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
+            "name": "CardTest",
+            "request": "launch",
+            "mainClass": "objectOriented.CardTest",
+            "projectName": "referenceBasic_4baf4ead"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",

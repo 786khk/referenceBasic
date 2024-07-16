@@ -11,6 +11,11 @@ class TvTest4_{
 }
 public class TvTest4 {
     TvTest4_[] tvArr =  new TvTest4_[3]; // 길이가 3인 Tv객체 배열 생성
+    /** 
+     * 아래 방법도 가능
+     *  TvTest4_[] tvArr = {new TvTest4_(),new TvTest4_(),new TvTest4_};
+     */
+      
     public void main(){
 
         for(int i = 0; i<tvArr.length; i++){
